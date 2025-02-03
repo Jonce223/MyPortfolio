@@ -1,6 +1,8 @@
 html,body {
     font-size: 16px;
     margin: 0;
+    background-color: black;
+    
 }
 nav {
     background-color:darkred;
@@ -55,7 +57,7 @@ img {
     width: 50%;
     align-items: center;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-around;
     margin-left: 0;
 }
 .about p {
@@ -64,4 +66,35 @@ img {
     border: 2px dotted gray;
     border-radius: 8px;
     text-wrap: wrap;   
+    color: red;
+}
+
+
+#experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: content;
+}
+
+#experience p {
+    width: 30%;
+    text-align: left;
+    border: 2px dotted greenyellow;
+    border-radius: 10px;
+    text-wrap: wrap;
+    color:lightblue;
+}
+
+#contacts p {
+    border: 2px dotted greenyellow;
+    border-radius: 10px;
+    text-wrap: wrap;
+    color: goldenrod;
+}
+button {
+    width: 20%;
+    background-color: white;
+    color: black;
+    font-weight: bold;
 }

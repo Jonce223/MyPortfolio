@@ -14,6 +14,7 @@
     <body>
         <section id="myself">
             <div class="about">
+                <h1 style="color: red; font-weight: bold; border: 2px white dotted; border-radius: 8px;">About me</h1>
                 <p>
                     Hello! My name is Jonas I'm 25 years old and this is my 
                     Portfolio project for CodeCademy. So a little bit about me.
@@ -40,17 +41,40 @@
             </div>
             <img src="./Resources/Me.JPG">
         </section>
-        <br>
+        <hr style="background-color: gold; height: 3px; border-radius: 10px;" width="50%">
         <section id="experience">
+            <h1 style="color: green; font-weight: bold; border: 1px yellow dotted;
+            border-radius: 8px;">My Experience</h1>
             <p>
-
+                At the moment I'm learing FullStack Developer, but I have Kotlin cetificate and Android Studio one.
+                As well I have expecience with 1+ years with C#, PHP, Blender, AutoCad, JavaScript and SQL. Also some experience with CRM(customer service) program 1+ years.
+                Know quite a lot about electricity market about independent providers, since I worked in two major electricity providers in Lihuania(Igntis and Electrum). One of those
+                we're Lithuanian company and the other was Latvian company.
+                Also have worked in construction for building new warehouses, offices and bulding, with metal panels filled with special thermo foam. So I would say I have experience in different branches
+                of work enviroment. Worked in IT company called ,,Hostinger" whoch provides web hosting for the websties, so the websites could be accesible 24/7. Last but not least, I have worked at a
+                online casino from blackjacks to roulettes. Saw and expecienced first hand how he streaming works and how does the streaming rig work. Experienced first hand ,,Bot crisis" in streaming and 
+                how does companies work against it.
             </p>
         </section>
-
+        <hr style="background-color: blue;">
         <section id="contacts">
             <p>
-
+                Since this is only a project website I'm not going to share my contacts and personal information
             </p>
         </section>
+
+        <button id="btn" onclick="myFunc()">Click me for some magic!</button>
+        <script>
+            let result = document.getElementById("GFG");
+    
+            function changeColor(color) {
+                document.body.style.background = color;
+            }
+    
+            function myFunc() {
+                changeColor('yellow');
+                result.innerHTML = "Background Color changed";
+            }        
+        </script>
     </body>
 </html>
